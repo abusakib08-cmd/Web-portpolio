@@ -81,3 +81,26 @@ footer p{
     text-align: center;
     font-size: 10px;
 }
+
+@media only screen and (max-width: 600px) 
+    .half-width {
+        width: 100%; 
+        float: none;
+        margin-left: 0;
+        padding-left: 0;
+        text-align: center; 
+
+    section {
+        height: auto; 
+        padding: 20px;
+    }
+
+    .top-banner, .Dream-area, .Experience-Area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    h1 {
+        font-size: 30px; 
+    }
+}
