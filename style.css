@@ -36,6 +36,7 @@ section{
     height:500px;
     min-height: 500px;
     padding-bottom: 50px;
+    
 }
 .link-button{
     text-decoration: none;
@@ -84,21 +85,27 @@ footer p{
     font-size: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .half-width {
-        width: 100% !important; 
-        float: none !important; 
+        width: 100% !important;
+        float: none !important;
         margin-left: 0 !important;
-        padding-left: 0 !important;
+        padding: 10px !important;
+        text-align: center !important;
     }
 
     section {
         height: auto !important; 
-        min-height: 400px;
         display: block !important;
     }
 
     .top-banner, .Dream-area, .Experience-Area {
-        background-image: none; 
+        background-image: none !important; 
+        padding-top: 50px !important;
+    }
+
+    .half-width img {
+        width: 80% !important;
+        margin: 0 auto;
     }
 }
